@@ -1,0 +1,53 @@
+.container{
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    width: 100%;
+}
+.hero{
+    background-color: #f1deb8;
+    height: 100%;
+}
+form{
+    text-align: center;
+    padding: 3rem 0;
+}
+fieldset{
+    border:4px solid #525ff6;
+    display: inline-block
+}
+.form-control{
+    padding: 1rem;
+}
+.catogary{
+    width: 100%;
+    font-size: 1.4rem;
+}
+.size{
+    font-size: 1.4rem;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    margin: 0
+}
+.notice-box{
+    display:inline-block;
+    padding: 1.2rem;
+    background-color: #f44336;
+    color: black;
+    margin: 1rem;
+    width: 25%;
+    border: 1px solid;
+}
+.btn{
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    padding: .4rem;
+}
