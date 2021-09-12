@@ -86,4 +86,5 @@ function handlePara(event){
         localStorage.setItem("notice-data",JSON.stringify(getNoticeData));
         event.target.remove();
         createBoard();
+        
 }}
