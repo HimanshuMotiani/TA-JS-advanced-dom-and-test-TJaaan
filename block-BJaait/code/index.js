@@ -38,6 +38,7 @@ function createUI(arr) {
             list.insertBefore(item, event.target);
             console.log("drop");
         });
+        
         div.addEventListener("dragenter",()=>{
             console.log("dragenter");
         });
