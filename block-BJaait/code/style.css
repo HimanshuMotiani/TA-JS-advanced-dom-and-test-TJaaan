@@ -1,0 +1,51 @@
+body{
+    background-color: #2773f4;
+    color:#fcfdfd;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
+i{
+    position: absolute;
+    left: 269px;
+    top: 34px;
+    right: 0px;
+}
+.relative{
+    position: relative;
+}
+.boxes{
+    font-size: 1.2rem;
+    background: transparent;
+    border: 1px solid white;
+    padding: 1.2rem;
+    color: #fcfdfd;
+    outline: none;
+    width: 20%;
+    margin: .6rem auto;
+    position: relative;
+}
+.each-box{
+    background-color: white;
+    color: #2773f4;
+    font-weight: 800;
+    border: 1px solid;
+    text-align: left;
+    cursor: pointer;
+}
+.each-box:hover  .drag{
+   display: block; 
+}
+.drag{
+
+    color: #2773f4;
+font-size: .8rem;
+position: absolute;
+left: 250px;
+top: 25px;
+display: none;
+}
+.hide{
+    display: none;
+}
