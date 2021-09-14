@@ -1,6 +1,6 @@
-function add() {}
-
-
+function add() {
+  console.log("hello")
+}
 
 function subtract() {}
 
