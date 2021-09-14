@@ -2,8 +2,8 @@ function add() {
   console.log("hello")
 }
 
-function subtract() {}
 
+function subtract() {}
 
 function sum() {}
 
