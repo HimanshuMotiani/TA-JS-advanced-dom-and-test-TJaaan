@@ -2,7 +2,6 @@ function add() {
   console.log("hello")
 }
 
-
 function subtract() {}
 
 function sum() {}
