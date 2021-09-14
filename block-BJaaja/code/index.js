@@ -1,15 +1,15 @@
-## Using ESLint
+// ## Using ESLint
 
-- Create a folder with a `.js` file
-- Install and setup the `eslint`
-- Go through [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
-- List 10 bad practices from the link above
-- Check if you get error (red underline) in VSCode.
-- Comment the bad code and fix it below that
+// - Create a folder with a `.js` file
+// - Install and setup the `eslint`
+// - Go through [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
+// - List 10 bad practices from the link above
+// - Check if you get error (red underline) in VSCode.
+// - Comment the bad code and fix it below that
 
-Example:
+// Example:
 
-```js
+
 var count = 1;
 if (true) {
   count += 1;
@@ -20,13 +20,13 @@ if (true) {
   count += 1;
 }
 
-```
 
-#### Fix the following code given below by following the rules of Airbnb Style Guide. Use ESLint to find the error
+
+// #### Fix the following code given below by following the rules of Airbnb Style Guide. Use ESLint to find the error
 
 1.
 
-```js
+
 var num = 10;
 
 var increaseNumber = () => num++;
@@ -37,11 +37,11 @@ var num2 = increasePassedNumber(num1);
 
 console.log(num1);
 console.log(num2);
-```
+
 
 2.
 
-```js
+
 var animalMethods = {
   eat: function () {
     console.log(`I live in ${this.location} and I can eat`);
@@ -121,11 +121,11 @@ let catsMethods = {
   },
 };
 Object.setPrototypeOf(catsMethods, animalMethods);
-```
 
-3.
 
-```js
+
+
+
 const anakinSkywalker = 'Anakin Skywalker';
 const lukeSkywalker = 'Luke Skywalker';
 
@@ -137,15 +137,15 @@ const obj = {
   mayTheFourth: 4,
   anakinSkywalker,
 };
-```
+
 
 4.
 
-```js
+
 function getFullName(user) {
   const firstName = user.firstName;
   const lastName = user.lastName;
 
   return `${firstName} ${lastName}`;
 }
-```
+
